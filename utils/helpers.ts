@@ -104,6 +104,6 @@ export const forCashOut = (amount: number, userType: string) => {
     : forCashOutLegal(amount)
 }
 
-export const roundingCurrency = (amount: number) => {
-  console.log(Math.ceil(amount))
-}
+export const roundingCurrency = (amount: number) => (
+  Math.ceil(amount)
+)
