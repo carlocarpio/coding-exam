@@ -1,0 +1,14 @@
+{
+  "name": "emt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build && node dist/app.js",
+    "build": "tsc -p ./"
+  },
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "fs": "^0.0.1-security"
+  }
+}
